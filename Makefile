@@ -12,6 +12,6 @@ docker_build:
 docker_run:
 	@docker run -p 3000:3000 \
 		-e "CLIENT_ID=btr36m7q3h76m1cirjjkh408h" \
-		-e "BUCKET_NAME=zahnsoftware-go-ftp-host" \
+		-e "BUCKET_NAME=phx-code-camp-ftp-server" \
 		-v $(AWS_PATH)/.aws:/root/.aws \
 		goftp
